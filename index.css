@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.inner {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.header {
+    width: 1024px;
+    height: 100vh;
+    background: #192314;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-pic {
+    width: 652px;
+    height: 502px;
+    background: url(images/green-beosound-shape-desktop.jpg);
+    background-size: 100% auto;
+    float: right;
+}
+
+.header-text {
+    width: 512px;
+    height: 208px;
+    color: white;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.description {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.title {
+    letter-spacing: 4px;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 15px 0 24px 0;
+    font-weight: normal;
+    text-align: left;
+}
+
+.small-desc {
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 21px;
+    margin: 19px 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.button {
+    display: block;
+    width: 272px;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    line-height: 21px;
+    padding: 12px 35px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.banner-box {
+    height: 405px;
+    padding-bottom: 100px;
+    background: url(images/img-bg-1350.jpg) 0 -158px / 100% auto;
+}
+
+.product-box {
+    width: 823px;
+    height: 353px;
+    margin: -48px auto 0 auto;
+    padding: 0 59px;
+    position: relative;
+    z-index: 100;
+}
+
+.product-item {
+    width: 234px;
+    height: 354px;
+    float: left;
+    position: relative;
+}
+
+.product-item img {
+    width: 100%;
+}
+
+.product-item h4 {
+    font-size: 12px;
+    color: #fff;
+    top: 15px;
+    left: 20px;
+    position: absolute;
+}
+
+.top-menu {
+    width: 100%;
+    height: 57px;
+    padding: 0 22px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+.left, .right {
+    width: 128px;
+    height: 100%;
+    color: #fff;
+    line-height: 57px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.center {
+    height: 100%;
+    line-height: 57px;
+    width: 190px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+
+.left {
+    background: url(images/product.png) no-repeat left center;
+}
+
+.right {
+    background: url(images/menu.png) no-repeat right center;
+}
+
+.top-text {
+    padding: 90px;
+    height: 318px;
+}
+
+.top-text h6 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin: 12px 0 18px 0;
+}
+
+.top-text h2 {
+    font-size: 50px;
+    letter-spacing: 4px;
+    line-height: 60px;
+    font-weight: normal;
+    text-align: center;
+    margin: 25px 0 40px 0;
+}
+
+.product-list {
+    width: 705px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-product {
+    width: 235px;
+    height: 156px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top-product:nth-child(1) {
+    background: url(images/beosound-shape-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.top-product:nth-child(2) {
+    background: url(images/beovision-eclipse-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.top-product:nth-child(3) {
+    background: url(images/beolab-50-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.top-product:nth-child(4) {
+    background: url(images/beoplay-h9i-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.top-product:nth-child(5) {
+    background: url(images/beoplay-p6-categories-mobile-2.jpg);
+    background-size: 100% auto;
+}
+
+.top-product:nth-child(6) {
+    background: url(images/beosound-core-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.top-product h4 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 18px;
+    top: 31px;
+    left: 40px;
+    margin-bottom: 4px;
+    position: absolute;
+}
+
+.story-list {
+    width: 705px;
+    height: 490px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.story {
+    height: 364px;
+    margin: 0 auto;
+    padding-top: 88px;
+}
+
+.story:nth-child(1) {
+    width: 176px;
+    background: url(images/design-as-a-group-effort-01.jpg) no-repeat;
+    background-size: 100% auto;
+}
+
+.story:nth-child(2) {
+    width: 176px;
+    background: url(images/the-krane.jpg) no-repeat;
+    background-size: 100% auto;
+}
+
+.story:nth-child(3) {
+    width: 352px;
+    background: url(images/harmonies-story.jpg) no-repeat;
+    background-size: 100% auto;
+}
+
+.story h5 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 148px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.story p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #b9b9b9;
+    margin-top: 22px;
+}
+
+/*.footer {*/
+/*width: 768px;*/
+/*height: 748px;*/
+/*margin: 170px auto 0 auto;*/
+/*}*/
+
+/*.footer-left {*/
+/*width: 384px;*/
+/*border: solid 1px #f2f2f2;*/
+/*}*/
+
+.info {
+    padding: 0 14px;
+    height: 509px;
+    display: flex;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.info-item {
+    width: 498px;
+    height: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.info-item:nth-child(1) {
+    border-right: 1px solid #f2f2f2;
+}
+
+.info-item img {
+    margin: 0 auto 30px auto;
+}
+
+.info-item h5 {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 2px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.info-item h6 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #888;
+    margin: 18px 0;
+}
+
+.info-item:nth-child(1) h6 {
+    line-height: 20px;
+}
+
+.info-item:nth-child(2) h6 {
+    width: 290px;
+    margin: 18px auto;
+}
+
+input {
+    width: 372px;
+    height: 56px;
+    margin: 12px auto 40px auto;
+    padding: 6px 12px;
+}
+
+.info-item .button {
+    font-size: 12px;
+    color: #000;
+    width: 200px;
+    height: 41px;
+    margin: 8px auto;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.info-item:nth-child(2) .button {
+    margin-top: 118px;
+}
+
+.footer {
+    width: 915px;
+    height: 82px;
+    margin: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    padding-left: 25px;
+    width: 350px;
+    height: 20px;
+    line-height: 20px;
+    background: url(images/earth.png) no-repeat;
+}
+
+.footer-left a {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #000;
+}
+
+.footer-right {
+    width: 629px;
+    height: 42px;
+    padding: 0 14px;
+}
+
+.footer-right a {
+    height: 15px;
+    font-size: 12px;
+    line-height: 16px;
+    display: block;
+    margin-left: 16px;
+    color: #000;
+    float: right;
+}
